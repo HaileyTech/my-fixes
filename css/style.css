@@ -83,7 +83,9 @@ article figure {
   float: right;
 }
 article figcaption {
-  font-size: inherit;
+  font-size: 14px;
+  font-weight: 300;
+  font-family: 'Lato', sans-serif;
 }
 .pagination {
   margin-top: 2em;
