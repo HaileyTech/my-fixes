@@ -111,6 +111,11 @@ a.button:hover, a.button:active {
   text-decoration: none;
   color: #222;
 }
+.dropcap {
+font-size: 100px;
+float: left;
+line-height: 60%;
+}
 /*-- changes header and article width on small screens --*/
 @media screen and (max-width: 768px) {
   header {width: 96%;}
