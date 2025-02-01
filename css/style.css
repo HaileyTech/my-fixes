@@ -11,15 +11,18 @@ img {
 	height: auto;
 }
 body {
-  color: #444;
+  color: #222222;
   font-size: 1.6rem;
   font-family: 'Gentium Book Plus', serif;
+  background-color: rgb(239, 230, 220);
+  background-image: radial-gradient(rgb(222, 211, 198) 10%, transparent 10%);
+  background-size: 10px 10px;
 }
 p {
   margin-bottom: .67em;
 }
 nav, footer {
-  background-color: #444;
+  background-color: rgb(33, 40, 28);
 }
 footer {
   text-align: center;
@@ -76,6 +79,7 @@ article {
   line-height: 1.3;
   margin-left: auto;
   margin-right: auto;
+  background-color: rgb(239, 230, 220);
 }
 article figure {
   width: 39%;
@@ -97,24 +101,27 @@ article figcaption {
   margin-right: auto;
 }
 a.button {
-  border: 2px solid #888;
+  border: 2px solid rgb(33, 40, 28);
   padding: .4em 1em .4em 1em;
   text-decoration: none;
-  color: #888;
+  color: rgb(33, 40, 28);
   border-radius: 200px;
   font-family: 'Lato', sans-serif;
   font-weight: 300;
   font-size: 80%;
+  background-color: whitesmoke;
 }
 a.button:hover, a.button:active {
-  border: 1px solid #444;
+  border: 2px solid whitesmoke;
   text-decoration: none;
-  color: #222;
+  color: whitesmoke;
+  background-color: rgb(33, 40, 28);
 }
 .dropcap {
 font-size: 100px;
 float: left;
 line-height: 60%;
+color: rgb(33, 40, 28);
 }
 /*-- changes header and article width on small screens --*/
 @media screen and (max-width: 768px) {
