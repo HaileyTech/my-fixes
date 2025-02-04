@@ -107,7 +107,7 @@ a.button {
   color: rgb(33, 40, 28);
   border-radius: 200px;
   font-family: 'Lato', sans-serif;
-  font-weight: 300;
+  font-weight: 500;
   font-size: 80%;
   background-color: whitesmoke;
 }
@@ -115,6 +115,7 @@ a.button:hover, a.button:active {
   border: 2px solid whitesmoke;
   text-decoration: none;
   color: whitesmoke;
+  font-weight: 800;
   background-color: rgb(33, 40, 28);
 }
 .dropcap {
